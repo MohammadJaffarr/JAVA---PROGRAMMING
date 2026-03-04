@@ -12,6 +12,7 @@ This repository contains my Java practice programs while learning Java programmi
 ## Tools Used
 - Java
 - IntelliJ IDEA
+- VS code
 - Git & GitHub
 
 ## Purpose
