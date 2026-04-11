@@ -49,7 +49,7 @@ public class Sub_String {
 
         System.out.println(username2);
         System.out.println(domain2);
-
+        sc.close();
     }
 
 }

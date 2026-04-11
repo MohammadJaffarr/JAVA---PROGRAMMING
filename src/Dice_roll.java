@@ -32,6 +32,7 @@ public class Dice_roll {
         }else {
             System.out.println("no of Dice must be greater then zero");
         }
+        sc.close();
     }
     // Display the ASCII art
     static  void printDie(int roll){

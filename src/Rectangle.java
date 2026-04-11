@@ -19,5 +19,7 @@ public class Rectangle{
         area = width * height;
 
         System.out.println( " The area is : " + area + "cm");
+
+        sc.close();
     }
 }

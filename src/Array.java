@@ -25,5 +25,6 @@ public class Array {
         for (String fruit : fruits){
             System.out.println(fruit);
         }
+        sc.close();
     }
 }

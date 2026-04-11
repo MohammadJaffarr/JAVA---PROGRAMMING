@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Printf_Statement {
     public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
 
         // Printf() = is a method used to format output
 
@@ -52,7 +53,7 @@ public class Printf_Statement {
         System.out.printf("%04d\n",id3);
         System.out.printf("%4d\n",id4);
 
-
+        sc.close();
     }
 
 }

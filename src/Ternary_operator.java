@@ -17,6 +17,6 @@ public class Ternary_operator {
         String evenOrOdd = ( number % 2 == 0 ) ? "EVEN " : " ODD";
         System.out.println(evenOrOdd);
 
-
+        sc.close();
     }
 }

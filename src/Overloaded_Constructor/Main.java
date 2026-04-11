@@ -1,7 +1,5 @@
 package Overloaded_Constructor;
 
-import java.lang.classfile.attribute.SyntheticAttribute;
-
 public class Main {
     public static void main(String[] args){
 

@@ -1,9 +1,9 @@
 import java.util.Scanner;
-import java.util.Arrays;
+// import java.util.Arrays;
 
 public class Num_pad {
     public static void main(String[] args){
-
+        Scanner sc = new Scanner(System.in);
         char [][] telephone = {{'1', '2', '3'},{'4', '5', '6'},{'7', '8', '9'},{'*', '0', '#'}};
 
         for (char[] row : telephone){
@@ -12,5 +12,6 @@ public class Num_pad {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

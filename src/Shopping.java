@@ -9,7 +9,7 @@ public class Shopping {
         String item;
         double price;
         int quantity;
-        char currency  = '$';
+        char currency = '$';
         double total;
 
 
