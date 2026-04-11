@@ -3,7 +3,11 @@ import java.util.Random;
 
 public class Dice_roll {
     public static void main(String[] args){
+        // Scanner class for taking the input from user
+        // you have to import java.util.Scanner; 
         Scanner sc = new Scanner(System.in);
+        // Random for random inputs
+        // you have to import java.util.Random;
         Random random = new Random();
 
         // java dice roll program
@@ -17,13 +21,14 @@ public class Dice_roll {
         if (numOfDice > 0){
 
             for (int i =0 ; i < numOfDice ; i++){
+                // here 1 is included and 7 is ecluded means there is (1,2,3,4,5,6)
+                // taking random no from 1 - 7 using Random object
                 int roll = random.nextInt(1,7);
                 printDie(roll);
                 System.out.println("You rolled : " + roll);
                 total += roll;
             }
             System.out.println("Total : " + total);
-
         }else {
             System.out.println("no of Dice must be greater then zero");
         }
