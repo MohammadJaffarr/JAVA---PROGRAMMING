@@ -11,8 +11,14 @@ public class Main {
         // Car[] cars = new Car[3];
         Car[] cars = {c1,c2,c3};
 
-        for (int i =0 ; i< cars.length ; i++){
+        // used enhanced for loop instead of simple for loop
+        /*for (int i =0 ; i< cars.length ; i++){
             cars[i].drive();
+        }
+            */
+        // Enhanced for loop used here instead of for loop
+        for(Car car : cars){
+                car.drive();
         }
 
         sc.close();
